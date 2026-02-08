@@ -72,6 +72,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
@@ -106,6 +107,7 @@ ol {
   border-color: #FFFFFF;
   color: #fff;
   background-color: #1B1919;
+  cursor: pointer;
   appearance: none;
 }
 
@@ -127,6 +129,7 @@ ol {
   align-items: center;
   gap: 5px;
   width: fit-content;
+  cursor: pointer;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -187,6 +190,7 @@ ol {
   line-height: 100%;
   text-align: center;
   background-color: #1B1919;
+  cursor: pointer;
 }
 
 .search-form__submit-button {
@@ -223,6 +227,7 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
